@@ -2,14 +2,7 @@ import React from "react";
 
 const Section = () => {
   return (
-    <section
-      style={{
-        background: "#007BFF",
-        display: "flex",
-        justifycontent: "space-around",
-        padding: "1rem",
-      }}
-    >
+    <section className="section-content">
       <div>
         <img src="/images/buy-comics-digital-comics.png"></img> DIGITAL COMICS
       </div>

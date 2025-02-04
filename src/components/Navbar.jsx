@@ -2,20 +2,13 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav
-      style={{
-        display: "flex",
-        justifyContent: "space-between",
-        padding: "1rem",
-        backgroundColor: "#fff",
-      }}
-    >
+    <nav className="nav-style">
       <img
+        className="imgnav-style"
         src="public/images/dc-logo.png"
         alt="DC Logo"
-        style={{ height: "50px" }}
       />
-      <ul style={{ display: "flex", listStyle: "none", gap: "1rem" }}>
+      <ul className="ul-style">
         <li>Characters</li>
         <li>Comics</li>
         <li>Movies</li>

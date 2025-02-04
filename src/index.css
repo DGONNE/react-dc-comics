@@ -133,3 +133,27 @@ body {
   text-align: center;
   padding: 20px;
 }
+
+.section-content {
+  background: #007bff;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.nav-style {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.ul-style {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.imgnav-style {
+  height: 50px;
+}
