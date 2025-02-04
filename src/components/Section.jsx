@@ -6,7 +6,7 @@ const Section = () => {
       style={{
         background: "#007BFF",
         display: "flex",
-        justifyContent: "space-around",
+        justifycontent: "space-around",
         padding: "1rem",
       }}
     >

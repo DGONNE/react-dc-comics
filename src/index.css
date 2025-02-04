@@ -66,3 +66,70 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Stile generale */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: white;
+}
+
+/* HEADER */
+.header {
+  background-color: black;
+  padding: 20px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+.nav-item {
+  font-size: 18px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.jumbotron-logo {
+  width: 150px;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  text-align: center;
+  padding: 20px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+}

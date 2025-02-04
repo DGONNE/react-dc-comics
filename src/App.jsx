@@ -1,17 +1,17 @@
+// src/App.js
 import React from "react";
-import Navbar from "./components/Navbar";
 import Header from "./components/Header";
-import Main from "./components/Main";
+import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
+import "./index.css"; // Importiamo gli stili
 
 function App() {
   return (
-    <>
-      <Navbar />
+    <div className="app">
       <Header />
-      <Main />
+      <MainContent />
       <Footer />
-    </>
+    </div>
   );
 }
 

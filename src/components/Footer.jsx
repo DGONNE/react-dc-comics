@@ -1,18 +1,11 @@
 import React from "react";
 
-const Footer = () => {
+function Footer() {
   return (
-    <footer
-      style={{
-        background: "#000",
-        color: "#fff",
-        padding: "2rem",
-        textAlign: "center",
-      }}
-    >
-      <p>DC Comics &copy; 2024 - All rights reserved</p>
+    <footer className="footer">
+      <p>© 2024 DC Comics. All Rights Reserved.</p>
     </footer>
   );
-};
+}
 
 export default Footer;

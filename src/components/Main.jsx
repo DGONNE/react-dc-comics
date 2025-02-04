@@ -1,12 +1,15 @@
 import React from "react";
-import Section from "./Section";
+import Jumbotron from "./Jumbotron";
 
-const Main = () => {
+function MainContent() {
   return (
-    <main>
-      <Section />
+    <main className="main-content">
+      <Jumbotron /> {/* Jumbotron dentro MainContent */}
+      <div className="content-placeholder">
+        &lt;!-- Content goes here --&gt;
+      </div>
     </main>
   );
-};
+}
 
-export default Main;
+export default MainContent;
