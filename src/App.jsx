@@ -1,9 +1,8 @@
-// src/App.js
 import React from "react";
 import Header from "./components/Header";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
-import "./index.css"; // Importiamo gli stili
+import "./index.css";
 
 function App() {
   return (
