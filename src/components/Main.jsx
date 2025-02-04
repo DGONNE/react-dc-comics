@@ -1,10 +1,10 @@
 import React from "react";
 import Jumbotron from "./Jumbotron";
 
-function MainContent() {
+function Main() {
   return (
     <main className="main-content">
-      <Jumbotron /> {/* Jumbotron dentro MainContent */}
+      <Jumbotron /> {/* Jumbotron dentro Main */}
       <div className="content-placeholder">
         &lt;!-- Content goes here --&gt;
       </div>
@@ -12,4 +12,4 @@ function MainContent() {
   );
 }
 
-export default MainContent;
+export default Main;
