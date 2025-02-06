@@ -157,3 +157,50 @@ body {
 .imgnav-style {
   height: 50px;
 }
+
+/* CARD STYLE */
+.comics-container {
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.comics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.comic-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.comic-card:hover {
+  transform: scale(1.05);
+}
+
+.comic-thumb {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+}
